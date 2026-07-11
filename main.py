@@ -4,15 +4,18 @@ st.logo("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.co
 
 pages = {
     "Daily life": [
-        st.Page("dailyLife1.py", title = "Page 1"),
-  ],
+        st.Page("dailyLife1.py", title = "Page 1")
+    ],
 
     "Favorite food": [
         st.Page("food.py", title = "Food")
-  ],
+    ],
     "Data Analytics": [
         st.Page("dataframe.py", title = "Table")
-  ]
+    ],
+    "Money Laundering": [
+        st.Page("moneylaundering.py", title = "Legal stuff")
+    ]
 }
 
 pg = st.navigation(pages)
